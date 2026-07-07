@@ -1,0 +1,1037 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Untitled</title>
+<base href=".">
+<meta name="pathname" content="untitled.html">
+<meta name="description" content="Blog - Untitled">
+<meta property="og:title" content="Untitled">
+<meta property="og:description" content="Blog - Untitled">
+<meta property="og:type" content="website">
+<meta property="og:url" content="untitled.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="Blog"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles">mjx-c.mjx-c1D45C.TEX-I::before{padding:.441em .485em .011em 0;content:"o"}mjx-c.mjx-c210E.TEX-I::before{padding:.694em .576em .011em 0;content:"h"}mjx-mi{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-c.mjx-c1D45F.TEX-I::before{padding:.442em .451em .011em 0;content:"r"}mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("site-lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("site-lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("site-lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("site-lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("site-lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("site-lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("site-lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("site-lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("site-lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("site-lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("site-lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("site-lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("site-lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("site-lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("site-lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("site-lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("site-lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("site-lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("site-lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("site-lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("site-lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("site-lib/fonts/mathjax_vector-bold.woff") format("woff")}</style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Untitled_0">Untitled</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-div"><div class="math math-block is-loaded"><mjx-container class="Mathjax typstmate-display typstmate-style-block-center typstmate-id-" jax="CHTML"><typstmate-svg><svg style="overflow: visible; vertical-align: 0.00pt;" class="typst-doc" viewBox="0 0 14.233600000000003 9.049600000000002" width="14.233600000000003pt" height="9.049600000000002pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-text" transform="matrix(1 0 0 -1 0 8.8832)">
+            <use xlink:href="#gBB91B34C473091421A6FB4E518FDD42" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+        </g>
+        <g class="typst-text" transform="matrix(1 0 0 -1 7.462400000000001 8.8832)">
+            <use xlink:href="#gB2EDF3E1FE5FDE5D373CF599C0108279" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+        </g>
+    </g>
+    <defs id="glyph">
+        <symbol id="gBB91B34C473091421A6FB4E518FDD42" overflow="visible">
+            <path d="M 0 0m 1.1007999 -0.1664 c 0.1408 0 0.2944001 0.089600004 0.46080005 0.2816 l 2.9823997 3.5328 c 0.44800043 -1.2288 0.78080034 -2.1504002 0.9984002 -2.7776 c 0.1408 -0.39679995 0.23040009 -0.62719995 0.29439974 -0.7168 c 0.1408 -0.19199999 0.3840003 -0.29439998 0.7168002 -0.29439998 h 0.26879978 c 0.12800026 0.012800008 0.19200039 0.064 0.19200039 0.1792 c 0 0.025599997 -0.025599957 0.0768 -0.07680035 0.1408 c -0.08959961 0.0896 -0.1791997 0.2816 -0.2816 0.576 l -2.5727997 7.1935997 c -0.2176001 0.6272006 -0.74240017 0.9344001 -1.5744 0.9344001 c -0.19200015 0 -0.2816 -0.06400013 -0.2816 -0.19199944 c 0 -0.08960056 0.07679987 -0.1536007 0.21759987 -0.19200039 c 0.17919993 -0.051199913 0.29439998 -0.11520004 0.3584001 -0.19200039 c 0.08959985 -0.102399826 0.21759987 -0.35839987 0.35839987 -0.76799965 l 1.2159998 -3.4176002 l -3.4559999 -3.4431996 c -0.16640002 -0.16640002 -0.2432 -0.30719998 -0.2432 -0.4224 c 0 -0.23039998 0.19199997 -0.4224 0.42239994 -0.4224 Z "></path>
+        </symbol>
+        <symbol id="gB2EDF3E1FE5FDE5D373CF599C0108279" overflow="visible">
+            <path d="M 0 0m 6.3743997 1.8432 c 0 0.11519992 -0.06399965 0.17919993 -0.20479965 0.17919993 c -0.1024003 0 -0.17920017 -0.08959997 -0.21760035 -0.2687999 c -0.25600004 -1.0112 -0.5632 -1.5232 -0.90879965 -1.5232 c -0.21760035 0 -0.3327999 0.1792 -0.3327999 0.53760004 c 0 0.16639996 0.051199913 0.4735999 0.16639996 0.9216 l 0.72959995 2.88 c 0.06399965 0.24319983 0.08959961 0.38399982 0.08959961 0.44799995 c 0 0.25600004 -0.1408 0.38399982 -0.42239952 0.38399982 c -0.26880026 0 -0.44800043 -0.15360022 -0.53760004 -0.44799995 c -0.26880026 0.4735999 -0.6528001 0.704 -1.1392002 0.704 c -0.832 0 -1.5616 -0.4224 -2.2015998 -1.2672 c -0.5888 -0.7936001 -0.88320005 -1.6128001 -0.88320005 -2.4703999 c 0 -1.1136 0.65279996 -2.0608 1.728 -2.0608 c 0.5504 0 1.0879998 0.29439998 1.5999999 0.8832 c 0.1408 -0.4864 0.576 -0.8832 1.1776001 -0.8832 c 0.8831997 0 1.152 1.0367999 1.3567996 1.984 Z m -2.0095997 2.944 c 0.11520004 -0.26880026 0.1791997 -0.44799995 0.1791997 -0.5632 c 0 -0.051199913 -0.01279974 -0.11520004 -0.025599957 -0.20480013 l -0.6271999 -2.4575999 c -0.038399935 -0.1408 -0.12800002 -0.29439998 -0.24319983 -0.44799995 c -0.47360015 -0.5888 -0.9344001 -0.88320005 -1.3824 -0.88320005 c -0.4992 0 -0.7552 0.38399997 -0.7552 1.1392 c 0 0.30720007 0.07679999 0.768 0.23039997 1.3823999 c 0.26880002 1.088 0.6528001 1.8176003 1.1264 2.2143998 c 0.25600004 0.21760035 0.4992001 0.32000017 0.74239993 0.32000017 c 0.34560013 0 0.60159993 -0.16639996 0.75520015 -0.49919987 Z "></path>
+        </symbol>
+    </defs>
+</svg>
+</typstmate-svg></mjx-container></div></div><div class="el-div"><div class="math math-block is-loaded"><mjx-container class="Mathjax typstmate-display typstmate-style-block-center typstmate-id-" jax="CHTML"><typstmate-svg><svg style="overflow: visible; vertical-align: 0.00pt;" class="typst-doc" viewBox="0 0 18.602240000000002 33.84064000000001" width="18.602240000000002pt" height="33.84064000000001pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-text" transform="matrix(1 0 0 -1 0 20.17024)">
+            <use xlink:href="#g20E72C9D55D2AD8047799847ECDCDF9F" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+        </g>
+        <g class="typst-text" transform="matrix(1 0 0 -1 12.7872 5.94944)">
+            <use xlink:href="#g32DCFCB00C47EF776E18CF982F936BE1" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+        </g>
+        <g class="typst-text" transform="matrix(1 0 0 -1 7.0272 33.75104)">
+            <use xlink:href="#g2FCE497B6F06E88566A3FB1139FA8ED7" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+        </g>
+    </g>
+    <defs id="glyph">
+        <symbol id="g20E72C9D55D2AD8047799847ECDCDF9F" overflow="visible">
+            <path d="M 0 0m 10.6368 17.4208 c -0.6015997 0 -1.1392002 -0.5503998 -1.6384001 -1.6511993 c -0.2432003 -0.5248003 -0.49919987 -1.3184004 -0.78079987 -2.3808002 c -1.2416 -4.5824003 -2.176 -9.0496 -3.1616 -14.886399 c -0.44799995 -2.7008 -0.81920004 -4.6591997 -1.1135998 -5.8496 c -0.52480006 -2.1887994 -1.1264 -3.2896 -1.792 -3.2896 c -0.24319994 0 -0.46079993 0.06400013 -0.65279996 0.20479965 c 0.37119997 0.06400013 0.5503999 0.2816 0.5503999 0.6656008 c 0 0.3711996 -0.28159988 0.6655998 -0.65279984 0.6655998 c -0.448 0 -0.67840004 -0.23040009 -0.67840004 -0.67840004 c 0 -0.74240017 0.72959995 -1.2416 1.4591999 -1.2416 c 0.9344001 0 1.7024 0.74240017 2.3040001 2.2144003 c 0.3199997 0.78079987 0.7551999 2.2911997 1.2928 4.5055995 c 0.9344001 3.8016 1.7663999 7.8719997 2.4959998 12.1984 c 0.5120001 3.0336003 0.97280025 5.3376 1.3696003 6.912 c 0.3711996 1.4847994 0.71679974 2.2272005 1.0239992 2.2272005 c 0.25600052 0 0.4736004 -0.06400108 0.64000034 -0.20480156 c -0.3711996 -0.063999176 -0.5632 -0.28159904 -0.5632 -0.6655998 c 0 -0.3711996 0.2816 -0.6655998 0.6527996 -0.6655998 c 0.4480009 0 0.67840004 0.23040009 0.67840004 0.67840004 c 0 0.7040005 -0.6911993 1.2416 -1.4335995 1.2416 Z "></path>
+        </symbol>
+        <symbol id="g32DCFCB00C47EF776E18CF982F936BE1" overflow="visible">
+            <path d="M 0 0m 1.0662401 3.79904 c 0.28671992 0 0.50176 0.21503997 0.50176 0.50176024 c 0 0.32255983 -0.17024004 0.49279976 -0.50176 0.50176 c 0.19711995 0.4211197 0.64512 0.7616 1.22752 0.7616 c 0.78848004 0 1.3081601 -0.5913601 1.3081601 -1.3798404 c 0 -0.43007994 -0.15232015 -0.84223986 -0.46591997 -1.24544 c -0.15232015 -0.20607996 -0.26880002 -0.34943986 -0.3494401 -0.43007994 l -2.12352 -2.1056 c -0.11648005 -0.107519984 -0.098560035 -0.13439998 -0.098560035 -0.4032 h 3.69152 l 0.27776003 1.6844801 h -0.3763199 c -0.0627203 -0.47487998 -0.13439989 -0.75264007 -0.21503997 -0.81536007 c -0.044800043 -0.026879966 -0.32256007 -0.044799984 -0.8512001 -0.044799984 h -1.5232 c 0.60031986 0.52864 1.1558399 1.00352 1.68448 1.4246399 c 0.40320015 0.31360006 0.6899202 0.5913601 0.8691201 0.8332801 c 0.26879978 0.3494401 0.40320015 0.7168 0.40320015 1.1020799 c 0 0.55552006 -0.2150402 0.99456024 -0.65408015 1.3171201 c -0.38528013 0.29568005 -0.8691201 0.44799995 -1.4425602 0.44799995 c -0.49279988 0 -0.9139199 -0.14335966 -1.2812799 -0.43007994 c -0.38528 -0.31360006 -0.5824 -0.70783997 -0.5824 -1.19168 c 0 -0.30463982 0.22400004 -0.52864003 0.50176007 -0.52864003 Z "></path>
+        </symbol>
+        <symbol id="g2FCE497B6F06E88566A3FB1139FA8ED7" overflow="visible">
+            <path d="M 0 0m 4.2112 3.1539202 c 0 0.5555198 -0.5824001 0.7974398 -1.2006402 0.7974398 c -0.6451199 0 -1.10208 -0.18815994 -1.36192 -0.5644798 c -0.19711995 -0.27776003 -0.29568005 -0.52864003 -0.29568005 -0.75264 c 0 -0.42112017 0.2240001 -0.7078401 0.67200005 -0.8601601 c 0.08064008 -0.026880026 0.30464005 -0.07167995 0.6630399 -0.13440001 c 0.47488022 -0.08959997 0.7168002 -0.26880002 0.7168002 -0.54656005 c 0 -0.098559976 -0.035840034 -0.20607996 -0.1075201 -0.34047997 c -0.18815994 -0.34944 -0.5913601 -0.52864003 -1.20064 -0.52864003 c -0.49280012 0 -0.8243201 0.107520014 -0.9945601 0.31360003 c 0.24192 0.044799984 0.45696008 0.25088 0.45696008 0.52864003 c 0 0.24192 -0.12544 0.3584 -0.37632 0.3584 c -0.34048003 0 -0.54656005 -0.28672004 -0.54656005 -0.62720007 c 0 -0.6272 0.74368 -0.88704 1.4515201 -0.88704 c 0.6092799 0 1.0752001 0.14336 1.3977599 0.42112002 c 0.36736012 0.3136 0.54656005 0.672 0.54656005 1.0662401 c 0 0.55552006 -0.41215992 0.91392004 -1.23648 1.06624 c -0.15231991 0.035840034 -0.26880002 0.06272006 -0.3494401 0.07168007 c -0.30463982 0.05376005 -0.45695996 0.18815994 -0.45695996 0.4031999 c 0 0.098560095 0.035840034 0.18816018 0.098560095 0.28672004 c 0.17023993 0.27776003 0.47487998 0.41216016 0.9139199 0.41216016 c 0.37632012 0 0.63616014 -0.089600086 0.77056 -0.26880002 c -0.22399998 -0.07168007 -0.34047985 -0.21503997 -0.34047985 -0.43903995 c 0 -0.2060802 0.107519865 -0.31360006 0.32255983 -0.31360006 c 0.26880026 0 0.4569602 0.23295999 0.4569602 0.53760004 Z "></path>
+        </symbol>
+    </defs>
+</svg>
+</typstmate-svg></mjx-container></div></div><div class="el-div"><div class="math math-block is-loaded"><mjx-container class="Mathjax typstmate-display typstmate-style-block-center typstmate-id-" jax="CHTML"><typstmate-svg><svg style="overflow: visible; vertical-align: 0.00pt;" class="typst-doc" viewBox="0 0 252.82848923884512 144.9461921259842" width="252.82848923884512pt" height="144.9461921259842pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:h5="http://www.w3.org/1999/xhtml">
+    <g>
+        <g class="typst-group">
+            <g>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 71.41116640419948 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 71.41116640419948 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 71.41116640419948 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 94.08833175853019 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 94.08833175853019 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 94.08833175853019 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 116.7654971128609 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 116.7654971128609 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 116.7654971128609 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 139.4426624671916 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 139.4426624671916 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 139.4426624671916 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 162.11982782152234 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 162.11982782152234 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 162.11982782152234 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 184.796993175853 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 207.47415853018373 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 207.47415853018373 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 207.47415853018373 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 230.15132388451443 56.50524724409446)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="none" stroke="#0074d9" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 230.15132388451443 74.64697952755903)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#0074d94c" fill-rule="nonzero" transform="matrix(1 0 0 1 230.15132388451443 56.50524724409446)" d="M 0 0h 22.677166 v 18.141733 h -22.677166 v -18.141733 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 168.9229774278215 79.18241259842517)" d="M 0 0h 15.874016 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 164.3875443569554 83.71784566929131)" d="M 0 0m 0 15.874016 v -15.874016 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 164.3875443569554 79.18241259842517)" d="M 0 0m 0 4.5354333 c 0 -2.5025797 2.0328536 -4.5354333 4.5354333 -4.5354333 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 164.3875443569554 79.18241259842517)" d="M 0 0m 4.5354333 0 h 15.874016 v 20.409449 h -20.409449 v -15.874016 c 0 -2.5025797 2.0328536 -4.5354333 4.5354333 -4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 79.18241259842517)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 184.796993175853 79.18241259842517)" d="M 0 0h 22.677166 v 20.409449 h -22.677166 v -20.409449 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 207.47415853018373 79.18241259842517)" d="M 0 0h 22.677166 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 207.47415853018373 79.18241259842517)" d="M 0 0h 22.677166 v 20.409449 h -22.677166 v -20.409449 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 230.15132388451443 79.18241259842517)" d="M 0 0h 15.874016 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 246.02533963254595 79.18241259842517)" d="M 0 0c 2.5025795 0 4.5354333 2.0328536 4.5354333 4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 250.5607727034121 83.71784566929131)" d="M 0 0v 15.874016 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 230.15132388451443 79.18241259842517)" d="M 0 0h 15.874016 c 2.5025787 0 4.535433 2.0328536 4.535433 4.5354333 v 15.874016 h -20.409449 v -20.409449 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 168.9229774278215 120.00131023622045)" d="M 0 0m 15.874016 0 h -15.874016 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 164.3875443569554 115.4658771653543)" d="M 0 0m 4.5354333 4.5354333 c -2.5025797 0 -4.5354333 -2.0328538 -4.5354333 -4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 164.3875443569554 99.5918614173228)" d="M 0 0m 0 15.874016 v -15.874016 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 164.3875443569554 99.5918614173228)" d="M 0 0h 20.409449 v 20.409449 h -15.874016 c -2.5025797 0 -4.5354333 -2.032854 -4.5354333 -4.535433 v -15.874016 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 120.00131023622045)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 184.796993175853 99.5918614173228)" d="M 0 0h 22.677166 v 20.409449 h -22.677166 v -20.409449 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 207.47415853018373 120.00131023622045)" d="M 0 0m 22.677166 0 h -22.677166 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 207.47415853018373 99.5918614173228)" d="M 0 0h 22.677166 v 20.409449 h -22.677166 v -20.409449 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 250.5607727034121 99.5918614173228)" d="M 0 0v 15.874016 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 246.02533963254595 115.4658771653543)" d="M 0 0m 4.5354333 0 c 0 2.5025795 -2.0328538 4.5354333 -4.5354333 4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="#2ecc40" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 230.15132388451443 120.00131023622045)" d="M 0 0m 15.874016 0 h -15.874016 "></path>
+                <path class="typst-shape" fill="#2ecc404c" fill-rule="nonzero" transform="matrix(1 0 0 1 230.15132388451443 99.5918614173228)" d="M 0 0h 20.409449 v 15.874016 c 0 2.5025787 -2.032854 4.535433 -4.535433 4.535433 h -15.874016 v -20.409449 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 94.08833175853019 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 116.7654971128609 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 139.4426624671916 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 162.11982782152234 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 207.47415853018373 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 230.15132388451443 54.23753070866138)" d="M 0 0m 0 90.708664 v -90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 71.41116640419948 122.26902677165351)" d="M 0 0h 181.41733 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 71.41116640419948 99.5918614173228)" d="M 0 0h 181.41733 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 71.41116640419948 76.91469606299209)" d="M 0 0h 181.41733 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 71.41116640419948 54.23753070866138)" d="M 0 0m 0 90.708664 h 181.41733 v -90.708664 h -181.41733 v 90.708664 Z "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 79.54974908136484 61.20491338582674)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 79.54974899317587 61.20491333543304)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 89.11447349081367 70.36643779527556)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 89.1144734152231 70.36643779527556)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB1F27298B7A5195D38F5785ED153C573" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 102.22691443569555 61.06411338582674)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 102.22691434750656 61.064113310236195)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 111.79163884514438 70.53539779527557)" d="M 0 0h 3.84 v 5.24544 h -3.84 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 111.7916387695538 70.53539771968502)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 124.90407979002626 61.20491338582674)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 124.90407970183728 61.20491333543304)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 134.46880419947507 70.36643779527556)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 134.4688041238845 70.36643779527556)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g2F6FDC32A91C698F8E2942F29EEB5F38" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 147.58124514435696 61.06411338582674)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 147.581245056168 61.064113310236195)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 157.1459695538058 70.53539779527557)" d="M 0 0h 3.84 v 5.24544 h -3.84 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 157.14596947821522 70.53539771968502)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 170.25841049868768 61.06411338582674)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 170.2584104104987 61.064113310236195)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 179.8231349081365 70.36643779527556)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 179.82313483254597 70.36643779527556)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g9370B949CC3DC8F5CA1A1EA0E230203A" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 192.93557585301838 61.20491338582674)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 192.9355757648294 61.20491333543304)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 202.50030026246722 70.36643779527556)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 202.50030018687667 70.36643779527556)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gC1E0EBB8AFCC17E8F8BB865A3079EEC1" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 215.61274120734907 61.06411338582674)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 215.6127411191601 61.064113310236195)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 225.17746561679792 70.36643779527556)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 225.1774655412074 70.36643779527556)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g75D2B57E7D1126ED16F8DBC5AA71C7EA" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 238.2899065616798 61.20491338582674)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 238.28990647349082 61.20491333543304)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 247.8546309711286 70.53539779527557)" d="M 0 0h 3.84 v 5.24544 h -3.84 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 247.8546308955381 70.53539771968502)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62F16CD8D4BA5AEE3A507262DDB4CA3F" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 79.54974908136484 83.88207874015745)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 79.54974899317587 83.88207868976374)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 89.11447349081367 93.04360314960627)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 89.1144734152231 93.04360314960627)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g473ABFF23FA449DC5DB254B1DAB5DBCA" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 102.22691443569555 83.74127874015744)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 102.22691434750656 83.7412786645669)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 111.79163884514438 93.04360314960627)" d="M 0 0h 3.84 v 5.4144 h -3.84 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 111.7916387695538 93.04360314960627)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g190C51EF89995F044985991F4EB2C0CD" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 124.90407979002626 83.88207874015745)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 124.90407970183728 83.88207868976374)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 130.62880419947507 93.21256314960625)" d="M 0 0h 7.68 v 5.24544 h -7.68 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 130.6288041616798 93.21256307401572)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 147.58124514435696 83.74127874015744)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 147.581245056168 83.7412786645669)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 153.3059695538058 93.04360314960627)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 153.30596951601052 93.04360314960627)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gB1F27298B7A5195D38F5785ED153C573" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 170.25841049868768 83.74127874015744)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 170.2584104104987 83.7412786645669)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 175.9831349081365 93.21256314960625)" d="M 0 0h 7.68 v 5.24544 h -7.68 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 175.98313487034122 93.21256307401572)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g62F16CD8D4BA5AEE3A507262DDB4CA3F" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 192.93557585301838 83.88207874015745)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 192.9355757648294 83.88207868976374)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 198.66030026246722 93.04360314960627)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 198.66030022467191 93.04360314960627)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g75D2B57E7D1126ED16F8DBC5AA71C7EA" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 215.61274120734907 83.74127874015744)" d="M 0 0h 6.4 v 9.024 h -6.4 v -9.024 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 215.6127411191601 83.7412786645669)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3C27682407325D04A58A52C96400ADA8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 221.3374656167979 93.04360314960627)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 221.33746557900264 93.04360314960627)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g2F6FDC32A91C698F8E2942F29EEB5F38" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 238.2899065616798 83.88207874015745)" d="M 0 0h 6.4 v 8.7424 h -6.4 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 238.28990647349082 83.88207868976374)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gBD7B3F7D0208DB7AF73AD9362BE96943" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 244.0146309711286 93.21256314960625)" d="M 0 0h 7.68 v 5.24544 h -7.68 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 244.01463093333334 93.21256307401572)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 82.74974908136484 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 85.27447349081366 115.88972850393696)" d="M 0 0h 7.68 v 5.24544 h -7.68 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 85.27447345301839 115.88972842834643)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g62F16CD8D4BA5AEE3A507262DDB4CA3F" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 105.42691443569554 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 107.95163884514437 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 107.9516388073491 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g75D2B57E7D1126ED16F8DBC5AA71C7EA" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 128.10407979002625 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 130.62880419947507 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 130.6288041616798 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gC1E0EBB8AFCC17E8F8BB865A3079EEC1" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 150.78124514435697 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 153.3059695538058 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 153.30596951601052 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g9370B949CC3DC8F5CA1A1EA0E230203A" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 173.45841049868767 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 175.9831349081365 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 175.98313487034122 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g2F6FDC32A91C698F8E2942F29EEB5F38" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gB1F27298B7A5195D38F5785ED153C573" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 196.13557585301837 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 198.66030026246722 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 198.66030022467191 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g2F6FDC32A91C698F8E2942F29EEB5F38" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 218.81274120734906 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 221.3374656167979 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 221.33746557900264 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g190C51EF89995F044985991F4EB2C0CD" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 241.4899065616798 110.93044409448817)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 244.0146309711286 115.72076850393698)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 244.01463093333334 115.72076850393698)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g473ABFF23FA449DC5DB254B1DAB5DBCA" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 82.74974908136484 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 85.27447349081366 138.3979338582677)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 85.27447345301839 138.3979338582677)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g9370B949CC3DC8F5CA1A1EA0E230203A" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 105.42691443569554 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 107.95163884514437 138.3979338582677)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 107.9516388073491 138.3979338582677)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gC1E0EBB8AFCC17E8F8BB865A3079EEC1" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 128.10407979002625 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 130.62880419947507 138.3979338582677)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 130.6288041616798 138.3979338582677)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g190C51EF89995F044985991F4EB2C0CD" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 150.78124514435697 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 153.3059695538058 138.3979338582677)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 153.30596951601052 138.3979338582677)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g473ABFF23FA449DC5DB254B1DAB5DBCA" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 173.45841049868767 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 175.9831349081365 138.5668938582677)" d="M 0 0h 7.68 v 5.24544 h -7.68 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 175.98313487034122 138.56689378267714)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 196.13557585301837 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 198.66030026246722 138.3979338582677)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 198.66030022467191 138.3979338582677)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#g2F6FDC32A91C698F8E2942F29EEB5F38" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 218.81274120734906 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 221.3374656167979 138.5668938582677)" d="M 0 0h 7.68 v 5.24544 h -7.68 v -5.24544 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 221.33746557900264 138.56689378267714)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gB20D13B3F0599925512AA64EE5696D30" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 241.4899065616798 133.60760944881886)">
+                            <g></g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 244.0146309711286 138.3979338582677)" d="M 0 0h 7.68 v 5.4144 h -7.68 v -5.4144 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 244.01463093333334 138.3979338582677)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 5.24544)">
+                                    <use xlink:href="#g62C7418E5DA9E981EFF4A0CFE3A14E39" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                    <use xlink:href="#gB1F27298B7A5195D38F5785ED153C573" x="3.84" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 56.657100262467196 95.15026141732281)" d="M 0 0h 5.6832 v 8.8832 h -5.6832 v -8.8832 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 56.65710018687665 95.15026135433068)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3F2A5534074956DDF67DA07190F4C7AF" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 64.60801679790026 76.91469606299209)" d="M 0 0v 45.354332 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 62.3403002624672 122.26902677165351)" d="M 0 0h 4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 62.3403002624672 76.91469606299209)" d="M 0 0h 4.5354333 "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 37.08176797900263 117.82742677165352)" d="M 0 0h 7.1168 v 8.8832 h -7.1168 v -8.8832 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 37.081767878215224 117.82742670866139)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#gA9DEC8F7F6CA2D3624ACDBD76D9FF57D" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 46.4662845144357 99.5918614173228)" d="M 0 0v 45.354332 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 44.198567979002625 144.9461921259842)" d="M 0 0h 4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 44.198567979002625 99.5918614173228)" d="M 0 0h 4.5354333 "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 114.80709711286089 36.424264566929104)" d="M 0 0h 3.9168 v 8.7424 h -3.9168 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 114.80709711286089 36.424264516535395)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3D85C697A0332E5AED39242056EFA81C" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 94.08833175853019 47.434381102362174)" d="M 0 0h 45.354332 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 139.4426624671916 45.16666456692911)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 94.08833175853019 45.16666456692911)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 205.51575853018372 36.424264566929104)" d="M 0 0h 3.9168 v 8.7424 h -3.9168 v -8.7424 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 205.51575853018372 36.424264516535395)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g3D85C697A0332E5AED39242056EFA81C" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 47.434381102362174)" d="M 0 0h 45.354332 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 230.15132388451443 45.16666456692911)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 184.796993175853 45.16666456692911)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 158.91982782152232 18.141732283464563)" d="M 0 0h 6.4 v 8.8832 h -6.4 v -8.8832 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 158.91982773333336 18.14173222047243)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g42A2CF5B48CFEF92FAE0ECB3E7EDC2F7" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 116.7654971128609 29.292648818897614)" d="M 0 0h 90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 207.47415853018373 27.02493228346455)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 116.7654971128609 27.02493228346455)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 203.91575853018372 0)" d="M 0 0h 7.1168 v 8.8832 h -7.1168 v -8.8832 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 203.91575842939633 -0.00000006299213298658774)">
+                            <g>
+                                <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                    <use xlink:href="#g14B43EF5DA0FC379CBDEE7B1BDA553D2" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 162.11982782152234 11.15091653543305)" d="M 0 0h 90.708664 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 252.82848923884512 8.883199999999986)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" stroke="var(--typst-base-color)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 162.11982782152234 8.883199999999986)" d="M 0 0m 0 4.5354333 v -4.5354333 "></path>
+                <path class="typst-shape" fill="none" transform="matrix(1 0 0 1 0 37.78529763779524)" d="M 0 0h 66.87573 v 11.9168 h -66.87573 v -11.9168 Z "></path>
+                <g class="typst-group">
+                    <g>
+                        <g class="typst-group" transform="matrix(1 0 0 1 -0.00000006719159944795116 37.78529761259839)">
+                            <g>
+                                <g class="typst-group">
+                                    <g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 0 8.742400000000002)">
+                                            <use xlink:href="#g3D85C697A0332E5AED39242056EFA81C" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 3.9168000000000003 8.742400000000002)">
+                                            <use xlink:href="#g587D3F2A4EC73375DC104940D25DE701" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 8.896 8.742400000000002)">
+                                            <use xlink:href="#gA9DEC8F7F6CA2D3624ACDBD76D9FF57D" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 16.012800000000002 8.742400000000002)">
+                                            <use xlink:href="#g448A3F590C2158B78A7AE27E56A8860B" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 21.704533333333337 8.742400000000002)">
+                                            <use xlink:href="#g3F2A5534074956DDF67DA07190F4C7AF" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 27.387733333333337 8.742400000000002)">
+                                            <use xlink:href="#g448A3F590C2158B78A7AE27E56A8860B" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 33.07946666666667 8.742400000000002)">
+                                            <use xlink:href="#g14B43EF5DA0FC379CBDEE7B1BDA553D2" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 40.196266666666666 8.742400000000002)">
+                                            <use xlink:href="#g448A3F590C2158B78A7AE27E56A8860B" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 45.888 8.742400000000002)">
+                                            <use xlink:href="#g42A2CF5B48CFEF92FAE0ECB3E7EDC2F7" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 52.288 8.742400000000002)">
+                                            <use xlink:href="#g448A3F590C2158B78A7AE27E56A8860B" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 57.979733333333336 8.742400000000002)">
+                                            <use xlink:href="#g3D85C697A0332E5AED39242056EFA81C" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                        <g class="typst-text" transform="matrix(1 0 0 -1 61.89653333333334 8.742400000000002)">
+                                            <use xlink:href="#gA16FFCF10FD6316D4130A9AC98E3A3D8" x="0" y="0" fill="var(--typst-base-color)" fill-rule="nonzero"></use>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs id="glyph">
+        <symbol id="gBD7B3F7D0208DB7AF73AD9362BE96943" overflow="visible">
+            <path d="M 0 0m 3.4431999 8.524799 c -0.52480006 -0.53759956 -1.2928 -0.80639935 -2.304 -0.80639935 v -0.49920034 c 0.66559994 0 1.2160001 0.1024003 1.6383998 0.30719995 v -6.4767995 c 0 -0.23040003 -0.051199913 -0.384 -0.16639996 -0.448 c -0.115199804 -0.06400001 -0.43519998 -0.102400005 -0.94719994 -0.102400005 h -0.44799995 v -0.4992 c 0.32000005 0.0256 1.0112001 0.038399998 2.0735998 0.038399998 c 1.0623999 0 1.7536001 -0.012799999 2.0735998 -0.038399998 v 0.4992 h -0.44799995 c -0.5247998 0 -0.8448 0.038399994 -0.9471998 0.102400005 c -0.102400064 0.06400001 -0.16639996 0.21759999 -0.16639996 0.448 v 7.0911994 c 0 0.30720043 -0.025599957 0.38399982 -0.3584001 0.38399982 Z "></path>
+        </symbol>
+        <symbol id="gB1F27298B7A5195D38F5785ED153C573" overflow="visible">
+            <path d="M 0 0m 1.9123199 -0.16895999 c 1.08288 0 1.6204801 0.87551993 1.6204801 2.62656 c 0 1.17504 -0.24575996 1.9584 -0.72959995 2.3423998 c -0.26880002 0.20736027 -0.56832004 0.31488037 -0.88320005 0.31488037 c -1.08288 0 -1.62048 -0.88320017 -1.62048 -2.6572802 c 0 -1.4131199 0.37631997 -2.62656 1.6127999 -2.62656 Z m 0.8601601 4.19328 c 0.053759813 -0.26880026 0.07679987 -0.7603202 0.07679987 -1.4745603 c 0 -0.7065599 -0.030719995 -1.2287999 -0.08448005 -1.5667199 c -0.099839926 -0.61439997 -0.38399982 -0.9216 -0.85247993 -0.9216 c -0.17663991 0 -0.35327995 0.06912 -0.51456 0.19968 c -0.20735991 0.17664 -0.3302399 0.53760004 -0.38399994 1.09056 c -0.023039997 0.19200003 -0.030719995 0.59136 -0.030719995 1.19808 c 0 0.66815996 0.023040056 1.1366401 0.06143999 1.39008 c 0.06912005 0.4224 0.20736003 0.69120026 0.4224 0.8063998 c 0.16895998 0.092160225 0.31488 0.13824034 0.44543993 0.13824034 c 0.4992001 0 0.77568007 -0.40704012 0.8601601 -0.8601599 Z "></path>
+        </symbol>
+        <symbol id="g3C27682407325D04A58A52C96400ADA8" overflow="visible">
+            <path d="M 0 0m 3.1871998 -0.2816 c 1.8048003 0 2.7008002 1.4592 2.7008002 4.3775997 c 0 1.9584002 -0.40960026 3.264 -1.2160001 3.9040003 c -0.44799995 0.34560013 -0.94720006 0.52479935 -1.4720001 0.52479935 c -1.8047998 0 -2.7008 -1.4719996 -2.7008 -4.4287996 c 0 -2.3551998 0.6272 -4.3775997 2.6879997 -4.3775997 Z m 1.4336002 6.9888 c 0.089600086 -0.44800043 0.12799978 -1.2672 0.12799978 -2.4576 c 0 -1.1775999 -0.051199913 -2.048 -0.1408 -2.6111999 c -0.16639996 -1.0239999 -0.63999987 -1.536 -1.4208 -1.536 c -0.29439998 0 -0.58879995 0.11519999 -0.8576 0.33279997 c -0.3455999 0.29439998 -0.5503999 0.896 -0.63999987 1.8176 c -0.038400054 0.31999993 -0.051200032 0.9856 -0.051200032 1.9968 c 0 1.1135998 0.038400054 1.8944001 0.102399945 2.3168 c 0.11520004 0.704 0.34560013 1.152 0.704 1.3439999 c 0.2816 0.15360022 0.52480006 0.23039961 0.74239993 0.23039961 c 0.832 0 1.2928002 -0.67839956 1.4336002 -1.4335995 Z "></path>
+        </symbol>
+        <symbol id="gB20D13B3F0599925512AA64EE5696D30" overflow="visible">
+            <path d="M 0 0m 2.0659199 5.11488 c -0.3148799 -0.3225603 -0.77567995 -0.48384 -1.3823999 -0.48384 v -0.29952002 c 0.39936006 0 0.72959995 0.06143999 0.98304 0.18431997 v -3.88608 c 0 -0.13823998 -0.030719995 -0.23039997 -0.099839926 -0.2688 c -0.06912005 -0.038399994 -0.26112008 -0.06143999 -0.56832004 -0.06143999 h -0.26880002 v -0.29952 c 0.19200003 0.01536 0.60672 0.02304 1.24416 0.02304 c 0.63743985 0 1.0521599 -0.0076800007 1.2441598 -0.02304 v 0.29952 h -0.26879978 c -0.31488013 0 -0.50688004 0.023039997 -0.56832004 0.06143999 c -0.06143999 0.038400024 -0.099840164 0.13056001 -0.099840164 0.2688 v 4.25472 c 0 0.18431997 -0.015359879 0.23040009 -0.21503997 0.23040009 Z "></path>
+        </symbol>
+        <symbol id="g2F6FDC32A91C698F8E2942F29EEB5F38" overflow="visible">
+            <path d="M 0 0m 2.32704 2.71104 c 0.50688004 0.19199991 0.98303986 0.6758399 0.98303986 1.32864 c 0 0.33023977 -0.16127992 0.59904003 -0.4761598 0.8063998 c -0.27647996 0.17664003 -0.5913601 0.26880026 -0.94464004 0.26880026 c -0.3456 0 -0.64512 -0.092160225 -0.91392 -0.26880026 c -0.29952002 -0.19967985 -0.45312 -0.46080017 -0.45312 -0.79103994 c 0 -0.2534399 0.16895998 -0.43007994 0.41472 -0.43007994 c 0.24575996 0 0.41471994 0.17664003 0.41471994 0.4224 c 0 0.2534399 -0.14591992 0.39167976 -0.43775994 0.40704012 c 0.19968003 0.26879978 0.5145599 0.40703964 0.94464 0.40703964 c 0.46080005 0 0.6911999 -0.26879978 0.6911999 -0.81407976 c 0 -0.32256007 -0.06143999 -0.5913601 -0.17664003 -0.81408 c -0.20735979 -0.36863995 -0.49151993 -0.4377601 -0.96767986 -0.4377601 c -0.09215999 -0.015359879 -0.13823998 -0.053759813 -0.13823998 -0.12287998 c 0 -0.115199804 0.053759933 -0.115199804 0.20736003 -0.115199804 h 0.3302399 c 0.5760001 0 0.86783993 -0.40704012 0.86783993 -1.2288 c 0 -0.6528 -0.23808002 -1.22112 -0.82175994 -1.22112 c -0.4992 0 -0.86783993 0.16895999 -1.09056 0.50688 c 0.26879996 -0.007679999 0.46847993 0.19200003 0.46847993 0.45312005 c 0 0.26111996 -0.19199991 0.45312 -0.45311993 0.45312 c -0.29952002 0 -0.45312002 -0.1536001 -0.45312002 -0.46848 c 0 -0.37632006 0.16896 -0.67584 0.50688004 -0.91392004 c 0.29952002 -0.20736 0.65279996 -0.30719998 1.04448 -0.30719998 c 0.43775988 0 0.81408 0.14592 1.14432 0.43008 c 0.33024 0.28416 0.49151993 0.63743997 0.49151993 1.06752 c 0 0.72192 -0.56832004 1.2211199 -1.18272 1.3824 Z "></path>
+        </symbol>
+        <symbol id="g62C7418E5DA9E981EFF4A0CFE3A14E39" overflow="visible">
+            <path d="M 0 0m 1.8201599 5.11488 c -0.39168 0 -0.7219199 -0.13824034 -1.0060799 -0.41472006 c -0.28416002 -0.2764802 -0.43008 -0.59904003 -0.43008 -0.99072003 c 0 -0.26112008 0.19199997 -0.45312 0.43008 -0.45312 c 0.23039997 0 0.4224 0.19967985 0.4224 0.43007994 c 0 0.2534399 -0.18431997 0.43007994 -0.43008 0.43007994 c -0.023039997 0 -0.038399994 0 -0.053759992 -0.0076799393 c 0.14591998 0.3763199 0.48384 0.70656013 0.96768 0.70656013 c 0.62976 0 0.98303986 -0.54528 0.98303986 -1.2057602 c 0 -0.51456 -0.26111984 -1.0675199 -0.7833599 -1.6511999 l -1.44384 -1.6281599 c -0.099839985 -0.11519998 -0.09215999 -0.107519984 -0.09215999 -0.33023998 h 2.8492799 l 0.22271991 1.3823999 h -0.2534399 c -0.06143999 -0.39167994 -0.11520004 -0.6143999 -0.16127992 -0.68351996 c -0.038400173 -0.038399994 -0.26880002 -0.053759992 -0.6912 -0.053759992 h -1.28256 l 0.74495995 0.7296 c 0.5222399 0.49151993 1.18272 1.0214399 1.4054399 1.42848 c 0.15359998 0.26880002 0.23040009 0.5375998 0.23040009 0.8063998 c 0 0.9062402 -0.7065599 1.5052803 -1.62816 1.5052803 Z "></path>
+        </symbol>
+        <symbol id="g9370B949CC3DC8F5CA1A1EA0E230203A" overflow="visible">
+            <path d="M 0 0m 2.9414399 3.87072 c 0.25344014 0 0.37632012 0.13055992 0.37632012 0.39167976 c 0 0.5529604 -0.41472006 0.8524804 -0.9830401 0.8524804 c -0.63743997 0 -1.1443199 -0.29952002 -1.5206399 -0.90624 c -0.33024 -0.52224016 -0.49152002 -1.1136003 -0.49152002 -1.7817602 c 0 -0.9753599 0.17664 -1.6588799 0.53760004 -2.0659199 c 0.30719995 -0.35327998 0.66048 -0.52992 1.0675199 -0.52992 c 0.46848 0 0.85248005 0.17663999 1.1520001 0.52992 c 0.2841599 0.33791998 0.43007994 0.74495995 0.43007994 1.21344 c 0 0.4684801 -0.1382401 0.86784005 -0.41472006 1.1980801 c -0.29183984 0.35327983 -0.66815996 0.5375998 -1.1212798 0.5375998 c -0.39936006 0 -0.70656 -0.22271991 -0.91392004 -0.65279984 v 0.046079874 c 0 0.86784005 0.21503997 1.60512 0.67584 1.9430401 c 0.19967997 0.1459198 0.40704 0.21503973 0.6144 0.21503973 c 0.27647996 0 0.4761598 -0.07679987 0.60672 -0.23808002 c -0.26112008 0 -0.39168 -0.1459198 -0.39168 -0.3763199 c 0 -0.21503973 0.16127992 -0.3763199 0.3763199 -0.3763199 Z m -0.29952002 -1.25952 c 0.08448005 -0.17664003 0.13056016 -0.5222399 0.13056016 -1.0291198 c 0 -0.4992 -0.038400173 -0.82944 -0.12287998 -0.99840003 c -0.15359998 -0.31487998 -0.39168 -0.47616 -0.72192013 -0.47616 c -0.22271991 0 -0.39167988 0.0768 -0.51456 0.23039998 c -0.099839926 0.12288001 -0.16895998 0.2304 -0.19967997 0.31487998 c -0.09215999 0.23808002 -0.13823998 0.59904003 -0.13823998 1.09056 c 0 0.21503997 0.030719995 0.42240012 0.08448005 0.62207997 c 0.099839926 0.36096 0.38399994 0.69887996 0.80639994 0.69887996 c 0.29952002 0 0.5299201 -0.15359998 0.6758399 -0.45312 Z "></path>
+        </symbol>
+        <symbol id="gC1E0EBB8AFCC17E8F8BB865A3079EEC1" overflow="visible">
+            <path d="M 0 0m 3.648 4.63872 c 0.053759813 0.06911993 0.07679987 0.16895962 0.07679987 0.30719995 h -1.85856 c -0.52992 0 -0.8294399 0.030719757 -0.88319993 0.09983969 c -0.023039997 0.023040295 -0.046079993 0.07680035 -0.06143999 0.14592028 h -0.23808002 l -0.26111996 -1.62816 h 0.25343996 c 0.07680005 0.43007994 0.13824004 0.66048 0.18432003 0.6988797 c 0.023039997 0.023040295 0.26111996 0.038400173 0.71423995 0.038400173 h 1.50528 l -0.81408 -1.152 c -0.62207997 -0.88319993 -0.92928004 -1.8355199 -0.92928004 -2.87232 c 0 -0.29952 0.12287998 -0.44544 0.37632 -0.44544 c 0.25344002 0 0.37632 0.14592 0.37632 0.44544 v 0.39167997 c 0 1.16736 0.18431997 2.01216 0.54528 2.52672 Z "></path>
+        </symbol>
+        <symbol id="g75D2B57E7D1126ED16F8DBC5AA71C7EA" overflow="visible">
+            <path d="M 0 0m 0.90624 2.4192 c 0.038399994 0 0.08447999 0.030719995 0.12287998 0.08448005 c 0.23039997 0.3455999 0.54528 0.51456 0.94464004 0.51456 c 0.2687999 0 0.47615993 -0.15359998 0.6144 -0.4684801 c 0.08447981 -0.20736003 0.13055992 -0.5222399 0.13055992 -0.9446399 c 0 -0.48384 -0.06143999 -0.82175994 -0.17664003 -1.02144 c -0.19199991 -0.31487998 -0.45312 -0.47616 -0.78336 -0.47616 c -0.51456 0 -0.9215999 0.36864 -1.05984 0.768 c 0.023039997 -0.007679999 0.038400054 0 0.06912005 0 c 0.23039997 0 0.4224 0.17664003 0.4224 0.40704 c 0 0.23808002 -0.19200003 0.39935994 -0.4224 0.39935994 c -0.26880002 0 -0.384 -0.14591992 -0.384 -0.43007994 c 0 -0.768 0.62208 -1.4208 1.39008 -1.4208 c 0.46848 0 0.86783993 0.16895999 1.1904 0.50688 c 0.32256007 0.33791998 0.48384 0.74496007 0.48384 1.2134401 c 0 0.44543993 -0.13055992 0.82944 -0.39168 1.15968 c -0.2841599 0.36096 -0.63743997 0.5375998 -1.0675199 0.5375998 c -0.36096 0 -0.67584 -0.115199804 -0.92928004 -0.3455999 v 1.3670402 c 0.20736003 -0.06143999 0.40704 -0.092160225 0.6144 -0.092160225 c 0.35327995 0 0.6604799 0.08447981 0.9216 0.26111984 c 0.23808002 0.14592028 0.39935994 0.29184008 0.49151993 0.43007994 c 0.046080112 0.061440468 0.06911993 0.1075201 0.06911993 0.1305604 c 0 0.07679987 -0.038399935 0.11520004 -0.115199804 0.11520004 c -0.4224 -0.16128016 -0.78336 -0.24576044 -1.0752001 -0.24576044 c -0.3456 0 -0.67584 0.06912041 -0.99072 0.2150402 c -0.038399994 0.015359879 -0.06911999 0.023039818 -0.099839985 0.023039818 c -0.06911999 0 -0.107519984 -0.06911993 -0.107519984 -0.21503973 v -2.24256 c 0 -0.16128016 0 -0.23040009 0.13823998 -0.23040009 Z "></path>
+        </symbol>
+        <symbol id="g62F16CD8D4BA5AEE3A507262DDB4CA3F" overflow="visible">
+            <path d="M 0 0m 2.71104 5.19936 c -0.06912017 0 -0.13056016 -0.038400173 -0.17664003 -0.1075201 l -2.31936 -3.56352 v -0.27647996 h 2.00448 v -0.62976 c 0 -0.13823998 -0.030719995 -0.23039997 -0.08447981 -0.2688 c -0.05376005 -0.038399994 -0.19968009 -0.053759992 -0.4531201 -0.053759992 h -0.19199991 v -0.29952 c 0.22271991 0.01536 0.57599986 0.02304 1.0521599 0.02304 c 0.47616005 0 0.8294399 -0.0076800007 1.05216 -0.02304 v 0.29952 h -0.19200015 c -0.2534399 0 -0.39935994 0.015359998 -0.45311975 0.053759992 c -0.05376005 0.038400024 -0.08448005 0.13056001 -0.08448005 0.2688 v 0.62976 h 0.75264 v 0.29952002 h -0.75264 v 3.5174398 c 0 0.07679987 -0.05376005 0.13055992 -0.15359998 0.13055992 Z m -0.44544005 -0.9523201 v -2.6956797 h -1.75104 Z "></path>
+        </symbol>
+        <symbol id="g473ABFF23FA449DC5DB254B1DAB5DBCA" overflow="visible">
+            <path d="M 0 0m 1.92 5.11488 c -0.37632 0 -0.70656 -0.12287998 -0.98304 -0.36864042 c -0.27648002 -0.24575996 -0.41472 -0.5529599 -0.41472 -0.9292798 c 0 -0.3148799 0.11519998 -0.59904003 0.3456 -0.85247993 c 0.053759992 -0.06143999 0.22271997 -0.19199991 0.50688 -0.39168 c -0.69888 -0.36096 -1.05216 -0.82944 -1.05216 -1.3977599 c 0 -0.40704 0.16896 -0.73728 0.49920002 -0.99072003 c 0.3072 -0.23808 0.66816 -0.35328 1.09056 -0.35328 c 0.43007994 0 0.80640006 0.13824 1.12128 0.41472 c 0.31488013 0.27648 0.47616005 0.63743997 0.47616005 1.05984 c 0 0.35328007 -0.12287998 0.6681601 -0.3763199 0.9523201 c -0.09215999 0.099839926 -0.33024 0.27647996 -0.70656013 0.51456 c 0.5913601 0.3148799 0.88319993 0.71423984 0.88319993 1.18272 c 0 0.69887996 -0.66815996 1.1596801 -1.3900799 1.1596801 Z m 0.9907199 -1.1596801 c 0 -0.39935994 -0.23808002 -0.74496007 -0.71423984 -1.02912 l -0.91392004 0.59904003 c -0.23808002 0.15359998 -0.36096 0.35327983 -0.36096 0.59135985 c 0 0.46080017 0.4992 0.74495983 0.9907199 0.74495983 c 0.5299201 0 0.9984 -0.3763199 0.9984 -0.90623975 Z m -0.9907199 -3.8476799 c -0.62976 0 -1.1596799 0.45312 -1.1596799 1.06752 c 0 0.51456 0.28415996 0.92928004 0.85248 1.2441599 l 0.90623987 -0.576 c 0.36863995 -0.23808002 0.55296016 -0.50688004 0.55296016 -0.81408 c 0 -0.55296 -0.576 -0.9216 -1.1520001 -0.9216 Z "></path>
+        </symbol>
+        <symbol id="g190C51EF89995F044985991F4EB2C0CD" overflow="visible">
+            <path d="M 0 0m 0.89088 1.0752 c -0.25344002 0 -0.37632 -0.13055998 -0.37632 -0.39168 c 0 -0.576 0.46848 -0.85247993 1.0752 -0.85247993 c 0.6144 0 1.10592 0.30719998 1.46688 0.92928 c 0.29952002 0.5145599 0.45312 1.1059198 0.45312 1.7664001 c 0 0.9753599 -0.17664003 1.6665597 -0.52991986 2.0735998 c -0.29952002 0.34560013 -0.64512014 0.5145602 -1.0368001 0.5145602 c -0.45311987 0 -0.8294399 -0.16128016 -1.1289599 -0.4915204 c -0.33024 -0.34559965 -0.49152002 -0.7603197 -0.49152002 -1.2441597 c 0 -0.4684801 0.13824001 -0.86784005 0.41472003 -1.1980801 c 0.29183996 -0.35327995 0.66815996 -0.52992 1.12128 -0.52992 c 0.39936006 0 0.70656 0.21503997 0.91392004 0.64512 v -0.099839926 c 0 -0.83712006 -0.14592004 -1.4054401 -0.44544005 -1.71264 c -0.23808002 -0.25344 -0.49152005 -0.37632 -0.74495995 -0.37632 c -0.30720007 0 -0.52992 0.06911999 -0.67584 0.21503998 c 0.23808002 0 0.36096 0.13824001 0.36096 0.37631997 c 0 0.21504003 -0.16128004 0.37632 -0.37632 0.37632 Z m 0.9753599 0.81408 c -0.2995199 0 -0.5222399 0.1536001 -0.6758399 0.46080005 c -0.08448005 0.17664003 -0.13056004 0.5222399 -0.13056004 1.0214398 c 0 0.4992001 0.05376005 0.8371203 0.15359998 1.0291202 c 0.16895998 0.30719995 0.41472006 0.4607997 0.72959995 0.4607997 c 0.31488013 0 0.54528 -0.19199991 0.6912 -0.57599974 c 0.08448005 -0.20736027 0.1382401 -0.5606401 0.1382401 -1.05984 c 0 -0.66815996 -0.29952002 -1.33632 -0.9062401 -1.33632 Z "></path>
+        </symbol>
+        <symbol id="g3F2A5534074956DDF67DA07190F4C7AF" overflow="visible">
+            <path d="M 0 0m 3.2128 5.3248 c 0.5375998 0 0.9471998 -0.12800026 1.2287998 -0.3840003 c -0.30719995 -0.038399696 -0.52480006 -0.3199997 -0.52480006 -0.6143999 c 0 -0.4224 0.20479989 -0.6271999 0.6271999 -0.6271999 c 0.4224 0 0.6272001 0.21759987 0.6272001 0.6400001 c 0 0.90879965 -0.9856 1.3951998 -1.9712 1.3951998 c -0.79359984 0 -1.4463998 -0.2816 -1.9711999 -0.87039995 c -0.52479994 -0.58879995 -0.79359996 -1.2928 -0.79359996 -2.0992 c 0 -0.78079987 0.26880002 -1.4719999 0.79359996 -2.0479999 c 0.52480006 -0.576 1.1648 -0.8576 1.9455999 -0.8576 c 0.6400001 0 1.1392002 0.1792 1.4976001 0.5504 c 0.29439974 0.2944 0.48640013 0.58879995 0.58879995 0.8959999 c 0.038400173 0.11520004 0.051199913 0.19200003 0.051199913 0.24320006 c 0 0.11519992 -0.07679987 0.16639996 -0.21759987 0.16639996 c -0.102399826 0 -0.16639996 -0.051200032 -0.20480013 -0.15359998 c -0.26879978 -0.8576 -0.7936001 -1.2928 -1.5999999 -1.2928 c -0.37120008 0 -0.72959995 0.16639999 -1.088 0.51199996 c -0.42239988 0.39680004 -0.6271999 1.0624 -0.6271999 2.0096002 c 0 1.2799997 0.4863999 2.5344 1.6384001 2.5344 Z "></path>
+        </symbol>
+        <symbol id="gA9DEC8F7F6CA2D3624ACDBD76D9FF57D" overflow="visible">
+            <path d="M 0 0m 4.7872 -0.1408 l 1.9583998 0.1408 v 0.48639998 c -0.4607997 0 -0.72959995 0.025599986 -0.8319998 0.102400035 c -0.1024003 0.07679999 -0.15360022 0.26879996 -0.15360022 0.56319994 v 7.7311997 l -1.9071999 -0.14079952 v -0.4864006 c 0.44799995 0 0.72959995 -0.038399696 0.8319998 -0.11520004 c 0.1024003 -0.07679939 0.1408 -0.25599957 0.1408 -0.5503998 v -2.5983996 c -0.40959978 0.4735999 -0.92159986 0.7039995 -1.5359998 0.7039995 c -0.79359984 0 -1.4719999 -0.28159952 -2.0224 -0.85759974 c -0.5504 -0.5760002 -0.832 -1.2672 -0.832 -2.0736 c 0 -0.78079987 0.25599998 -1.4591999 0.7808 -2.0351999 c 0.52479994 -0.576 1.1648 -0.87039995 1.9455999 -0.87039995 c 0.6528001 0 1.2032001 0.2432 1.6256001 0.7424 Z m -1.4464002 5.4528 c 0.5504 0 0.9984002 -0.24319983 1.3183999 -0.72959995 c 0.089600086 -0.1408 0.12800026 -0.2816 0.12800026 -0.44799995 v -2.5856 c 0 -0.16640007 -0.038400173 -0.30720007 -0.12800026 -0.44800007 c -0.35839987 -0.5759999 -0.84479976 -0.8575999 -1.4463997 -0.8575999 c -0.52480006 0 -0.94720006 0.25599998 -1.2800001 0.7807999 c -0.23039997 0.38400006 -0.3456 0.96000004 -0.3456 1.7279999 c 0 1.3952003 0.4735999 2.56 1.7535999 2.56 Z "></path>
+        </symbol>
+        <symbol id="g3D85C697A0332E5AED39242056EFA81C" overflow="visible">
+            <path d="M 0 0m 3.392 9.024 c -1.1392 0 -1.984 -0.92160034 -1.984 -2.0608006 v -1.408 h -0.9856 v -0.48639965 h 0.9856 v -4.0576 c 0 -0.24319994 -0.038400054 -0.39679998 -0.12800002 -0.44799995 c -0.08959997 -0.051200032 -0.37119997 -0.06400001 -0.8448 -0.06400001 v -0.4992 l 1.472 0.038399998 c 0.5375999 0.012800001 1.0879999 0 1.6384 -0.038399998 v 0.4992 h -0.30719995 c -0.4224 0 -0.6912 0.025600016 -0.7808001 0.08960003 c -0.08959985 0.06399995 -0.12800002 0.21759999 -0.12800002 0.448 v 4.032 h 1.4336 v 0.48639965 h -1.4719999 v 1.4208002 c 0 0.7680001 0.39680004 1.6639996 1.1008 1.6639996 c 0.102400064 0 0.19199991 -0.012799263 0.2816 -0.038399696 c -0.19200015 -0.102399826 -0.29439998 -0.2816 -0.29439998 -0.5248003 c 0 -0.39679956 0.19199991 -0.6015997 0.58879995 -0.6015997 c 0.39680004 0 0.60160017 0.20480013 0.60160017 0.6143999 c 0 0.5760002 -0.60160017 0.93440056 -1.1776001 0.93440056 Z "></path>
+        </symbol>
+        <symbol id="g42A2CF5B48CFEF92FAE0ECB3E7EDC2F7" overflow="visible">
+            <path d="M 0 0m 6.1823997 1.1647999 v 0.7552 h -0.40959978 v -0.7552 c 0 -0.49919993 -0.1408 -0.7551999 -0.40960026 -0.7551999 c -0.25600004 0 -0.40959978 0.31999996 -0.40959978 0.576 v 2.5216 c 0 0.44799995 -0.051199913 0.7808001 -0.1408 1.0111997 c -0.30719995 0.7552004 -1.1904001 1.2160001 -2.0864 1.2160001 c -0.9856 0 -1.9583999 -0.5503998 -1.9583999 -1.4720001 c 0 -0.42239976 0.21759999 -0.63999987 0.64 -0.63999987 c 0.4224 0 0.6271999 0.20480013 0.6271999 0.6272001 c 0 0.37120008 -0.19199991 0.58879995 -0.58879995 0.6272001 c 0.2816 0.3199997 0.704 0.48639965 1.2544 0.48639965 c 0.7936001 0 1.28 -0.72959995 1.28 -1.5615997 v -0.4224 c -0.9984 -0.06400013 -1.7535999 -0.2176001 -2.2784 -0.46080017 c -0.8576 -0.3967998 -1.2928 -0.9471998 -1.2928 -1.6767999 c 0 -0.3327999 0.12799999 -0.6143999 0.3712 -0.8319999 c 0.40960002 -0.3712 0.9728 -0.5504 1.6895999 -0.5504 c 0.75520015 0 1.2928 0.32 1.6255999 0.97279996 c 0.089600086 -0.48639998 0.44799995 -0.90879995 0.9984002 -0.90879995 c 0.67840004 0 1.0879998 0.5376 1.0879998 1.2415999 Z m -3.6223998 -0.93439996 c -0.58879995 0 -1.0752 0.4352 -1.0752 1.024 c 0 1.1903999 1.2415999 1.7024 2.4959998 1.7663999 v -1.216 c 0 -0.8575999 -0.5632 -1.5744 -1.4208 -1.5744 Z "></path>
+        </symbol>
+        <symbol id="g14B43EF5DA0FC379CBDEE7B1BDA553D2" overflow="visible">
+            <path d="M 0 0m 3.8144 -0.1408 c 0.79359984 0 1.4719999 0.2816 2.0223997 0.8576 c 0.55040026 0.576 0.83200026 1.2544 0.83200026 2.0607998 c 0 0.7808001 -0.25600004 1.4720001 -0.78079987 2.0479999 c -0.5248003 0.5760002 -1.1648002 0.87039995 -1.9456 0.87039995 c -0.6272001 0 -1.1904001 -0.24319983 -1.664 -0.7423997 v 3.9295998 l -1.92 -0.14079952 v -0.4864006 c 0.4608 0 0.74239993 -0.038399696 0.8448 -0.11520004 c 0.102399945 -0.07679939 0.1408 -0.25599957 0.1408 -0.5503998 v -7.5903997 h 0.39679992 l 0.4224 0.7424 c 0.40960002 -0.5888 0.96000004 -0.8832 1.6512 -0.8832 Z m -0.05120015 0.384 c -0.5247998 0 -0.9599998 0.24319999 -1.28 0.7424 c -0.115199804 0.16639996 -0.16639996 0.3456 -0.16639996 0.51199996 v 2.5983996 c 0 0.16639996 0.038400173 0.30719995 0.12800002 0.4352002 c 0.37120008 0.5247998 0.8448 0.78079987 1.4463999 0.78079987 c 0.52480006 0 0.94720006 -0.25600004 1.28 -0.78079987 c 0.23040009 -0.38399982 0.34560013 -0.96000004 0.34560013 -1.7407999 c 0 -1.3824 -0.48640013 -2.5472 -1.7536001 -2.5472 Z "></path>
+        </symbol>
+        <symbol id="g587D3F2A4EC73375DC104940D25DE701" overflow="visible">
+            <path d="M 0 0m 4.0703998 -3.1743999 c 0.11520004 0 0.17920017 0.06399989 0.17920017 0.17919993 c 0 0.038399935 -0.025599957 0.089600086 -0.06400013 0.1408 c -0.6655998 0.5120001 -1.2031999 1.3568 -1.5999999 2.5216 c -0.3455999 1.0112 -0.52480006 2.0096 -0.52480006 2.9952 v 1.0751998 c 0 0.9856 0.17920017 1.9840002 0.52480006 2.9952002 c 0.39680004 1.1647997 0.9344001 2.0096002 1.5999999 2.5215993 c 0.038400173 0.03840065 0.06400013 0.08960056 0.06400013 0.14080048 c 0 0.11520004 -0.06400013 0.17920017 -0.17920017 0.17920017 c -0.01279974 0 -0.051199913 -0.012800217 -0.08959985 -0.03840065 c -0.7679999 -0.5887995 -1.408 -1.4591999 -1.9328 -2.6239996 c -0.49919987 -1.1135998 -0.7551999 -2.1632 -0.7551999 -3.1743999 v -1.0751998 c 0 -1.0112001 0.25600004 -2.0608 0.7551999 -3.1743999 c 0.52480006 -1.1648 1.1648002 -2.0352 1.9328 -2.624 c 0.038399935 -0.025599957 0.07680011 -0.038399935 0.08959985 -0.038399935 Z "></path>
+        </symbol>
+        <symbol id="g448A3F590C2158B78A7AE27E56A8860B" overflow="visible">
+            <path d="M 0 0m 1.7792 1.3568 c -0.40960002 0 -0.67840004 -0.30719995 -0.67840004 -0.7168 c 0 -0.384 0.2944001 -0.704 0.67840004 -0.704 c 0.17919993 0 0.33280003 0.051199995 0.44800007 0.16639999 l 0.012799978 -0.1024 c 0 -0.8064 -0.26880002 -1.4976 -0.80640006 -2.0479999 c -0.08959997 -0.102400064 -0.1408 -0.17920017 -0.1408 -0.23040009 c 0 -0.12800002 0.051200032 -0.19199991 0.16639996 -0.19199991 c 0.11520004 0 0.26880002 0.15359998 0.4864 0.44799995 c 0.4352001 0.6143999 0.65279996 1.2928 0.65279996 2.0224 c 0 0.6784 -0.23039985 1.3568 -0.8191999 1.3568 Z "></path>
+        </symbol>
+        <symbol id="gA16FFCF10FD6316D4130A9AC98E3A3D8" overflow="visible">
+            <path d="M 0 0m 0.9984 -3.136 c 0.768 0.58879995 1.408 1.4591999 1.9328 2.624 c 0.49919987 1.1136 0.7551999 2.1632 0.7551999 3.1743999 v 1.0751998 c 0 1.0112 -0.25600004 2.0608 -0.7551999 3.1743999 c -0.52480006 1.1647997 -1.1648 2.0352 -1.9328 2.6239996 c -0.038399994 0.025600433 -0.07679999 0.03840065 -0.08959997 0.03840065 c -0.11520004 0 -0.17920005 -0.06400013 -0.17920005 -0.17920017 c 0 -0.051199913 0.025600016 -0.102399826 0.06400001 -0.14080048 c 0.66559994 -0.51199913 1.2032 -1.3567996 1.6 -2.5215993 c 0.3455999 -1.0112 0.5247998 -2.0096002 0.5247998 -2.9952002 v -1.0751998 c 0 -0.9856 -0.17919993 -1.984 -0.5247998 -2.9952 c -0.39680004 -1.1647999 -0.9344001 -2.0096 -1.6 -2.5216 c -0.038399994 -0.051199913 -0.06400001 -0.102400064 -0.06400001 -0.1408 c 0 -0.11520004 0.06400001 -0.17919993 0.17920005 -0.17919993 c 0.012799978 0 0.051199973 0.012799978 0.08959997 0.038399935 Z "></path>
+        </symbol>
+    </defs>
+</svg>
+</typstmate-svg></mjx-container></div></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="untitled.html#Untitled_0" data-path="#Untitled_0"><div class="tree-item-inner heading-link" heading-name="Untitled">Untitled</div></a><div class="tree-item-children"></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
